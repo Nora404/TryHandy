@@ -41,7 +41,6 @@ button {
     fill: #bcc4e2;
     stroke: rgb(243, 246, 255);
     stroke-width: 2px;
-    // filter: drop-shadow(1px 1px 1px #0000006c);
 }
 
 .light-theme .crosC {
@@ -51,6 +50,10 @@ button {
 .light-theme .crosR {
     fill: #a9b4da;
     stroke: none;
+}
+
+.light-theme .cros :active {
+    fill: #2c3341;
 }
 
 // DARK THEME ------------------------------------------------------------------------
@@ -90,4 +93,8 @@ button {
 
 .dark-theme .crosR {
     fill: #4b4b4b;
+}
+
+.dark-theme .cros :active {
+    fill: #b19f9f;
 }
