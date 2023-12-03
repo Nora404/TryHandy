@@ -1,15 +1,29 @@
+import { CommonModule } from '@angular/common';
 import { AfterViewChecked, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss'
 })
 export class LayoutComponent implements AfterViewChecked {
 
   test: string = "START";
+  test2: string[] = [
+    'Aktion 1',
+    'Aktion 2',
+    'Aktion 3',
+    'Aktion 4',
+    'Aktion 5',
+    'Aktion 6',
+    'Aktion 7',
+    'Aktion 8',
+    'Aktion 9',
+    'Aktion 10',
+    'Aktion 11',
+  ];
 
   setTheme(theme: string) {
     document.body.classList.remove('light-theme', 'dark-theme');

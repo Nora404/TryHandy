@@ -48,16 +48,10 @@
     </div>
     <div class="action">
 
-        <button>Test 1</button><br>
-        <button>Test 2</button><br>
-        <button>Test 3</button><br>
-        <button>Test 4</button><br>
-        <button>Test 5</button><br>
-        <button>Test 6</button><br>
-        <button>Test 7</button><br>
-        <button>Test 8</button><br>
-        <button>Test 9</button><br>
-        <button>Test 0</button><br>
+        <div *ngFor="let action of test2" class="test">
+            <button>{{action}}</button><br>
+            Hier kommt eine Beschreibung hin, die soll vollständig zu sehen sein
+        </div>
 
     </div>
 </div>
