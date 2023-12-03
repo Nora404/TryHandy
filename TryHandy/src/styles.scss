@@ -28,7 +28,6 @@ button {
 
 .light-theme .head,
 .light-theme .map,
-.light-theme .cros,
 .light-theme .menu,
 .light-theme .action {
     box-sizing: border-box;
@@ -36,6 +35,22 @@ button {
     border: 3px double #0847bd96;
     height: 100%;
     width: 100%;
+}
+
+.light-theme .cros {
+    fill: #bcc4e2;
+    stroke: rgb(243, 246, 255);
+    stroke-width: 2px;
+    // filter: drop-shadow(1px 1px 1px #0000006c);
+}
+
+.light-theme .crosC {
+    fill: #888dd0;
+}
+
+.light-theme .crosR {
+    fill: none;
+    stroke: none;
 }
 
 // DARK THEME ------------------------------------------------------------------------
@@ -54,7 +69,6 @@ button {
 
 .dark-theme .head,
 .dark-theme .map,
-.dark-theme .cros,
 .dark-theme .menu,
 .dark-theme .action {
     box-sizing: border-box;
@@ -62,4 +76,18 @@ button {
     border: 3px double rgb(51, 32, 32);
     height: 100%;
     width: 100%;
+}
+
+.dark-theme .cros {
+    fill: rgb(85, 85, 85);
+    stroke: #1d1d1d;
+    stroke-width: 2px;
+}
+
+.dark-theme .crosC {
+    fill: #0c0c0c;
+}
+
+.dark-theme .crosR {
+    fill: #4b4b4b;
 }
