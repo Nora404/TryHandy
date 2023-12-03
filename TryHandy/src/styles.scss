@@ -16,13 +16,13 @@ button {
 
 .light-theme {
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(232, 255, 244);
+    background-color: rgb(243, 246, 255);
     color: black;
 }
 
 .light-theme button {
-    background: linear-gradient(100deg, #8bb9ac 0%, #99c7ba 100%);
-    border-color: #487765;
+    background: radial-gradient(#bcc4e2 1%, #888dd0 100%);
+    border-color: #485377;
     color: #2c3341;
 }
 
@@ -32,8 +32,8 @@ button {
 .light-theme .menu,
 .light-theme .action {
     box-sizing: border-box;
-    background-color: #064e6b3b;
-    border: 3px dotted #088abd96;
+    background-color: #06106b25;
+    border: 3px double #0847bd96;
     height: 100%;
     width: 100%;
 }
@@ -59,36 +59,7 @@ button {
 .dark-theme .action {
     box-sizing: border-box;
     background-color: #363636c2;
-    border: 5px double rgb(51, 32, 32);
+    border: 3px double rgb(51, 32, 32);
     height: 100%;
     width: 100%;
 }
-
-// CUSTOM THEME ----------------------------------------------------------------------
-
-.custom-theme {
-    font-family: 'Courier New', Courier, monospace;
-    background: #424057 url('./assets/bg/bg2.svg') center center/cover repeat fixed;
-    color: #aab8d3;
-}
-
-.custom-theme button {
-    background: radial-gradient(#664374 0%, #11132d 100%);
-    border-color: rgb(32, 30, 51);
-    color: #cecece;
-}
-
-.custom-theme .head,
-.custom-theme .map,
-.custom-theme .cros,
-.custom-theme .menu,
-.custom-theme .action {
-    box-sizing: border-box;
-    background-color: rgba(32, 30, 51, 0.767);
-    border: 5px groove rgb(32, 30, 51);
-    ;
-    height: 100%;
-    width: 100%;
-}
-
-// LAYOUT ----------------------------------------------------------------------------

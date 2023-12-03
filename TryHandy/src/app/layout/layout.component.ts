@@ -10,7 +10,7 @@ import { AfterViewChecked, Component, OnInit } from '@angular/core';
 export class LayoutComponent implements AfterViewChecked {
 
   setTheme(theme: string) {
-    document.body.classList.remove('light-theme', 'dark-theme', 'custom-theme');
+    document.body.classList.remove('light-theme', 'dark-theme');
     document.body.classList.add(theme);
 
     localStorage.setItem('theme', theme);
