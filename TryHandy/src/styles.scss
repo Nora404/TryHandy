@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+
+button {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 800;
+    box-shadow: 0px 2px 2px 2px #0000006c;
+}
+
+// LIGHT THEME ----------------------------------------------------------------------
+
+.light-theme {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(232, 255, 244);
+    color: black;
+}
+
+.light-theme button {
+    background: linear-gradient(100deg, #8bb9ac 0%, #99c7ba 100%);
+    border-color: #487765;
+    color: #2c3341;
+}
+
+.light-theme .head,
+.light-theme .map,
+.light-theme .cros,
+.light-theme .menu,
+.light-theme .action {
+    box-sizing: border-box;
+    background-color: #064e6b3b;
+    border: 3px dotted #088abd96;
+    height: 100%;
+    width: 100%;
+}
+
+// DARK THEME ------------------------------------------------------------------------
+
+.dark-theme {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(36, 36, 36) url('./assets/bg/bg3.svg') center center/cover repeat fixed;
+    color: rgb(175, 175, 175);
+}
+
+.dark-theme button {
+    background-color: #1d1d1d;
+    border-color: #000000;
+    color: #b19f9f;
+}
+
+.dark-theme .head,
+.dark-theme .map,
+.dark-theme .cros,
+.dark-theme .menu,
+.dark-theme .action {
+    box-sizing: border-box;
+    background-color: #363636c2;
+    border: 5px double rgb(51, 32, 32);
+    height: 100%;
+    width: 100%;
+}
+
+// CUSTOM THEME ----------------------------------------------------------------------
+
+.custom-theme {
+    font-family: 'Courier New', Courier, monospace;
+    background: #424057 url('./assets/bg/bg2.svg') center center/cover repeat fixed;
+    color: #aab8d3;
+}
+
+.custom-theme button {
+    background: radial-gradient(#664374 0%, #11132d 100%);
+    border-color: rgb(32, 30, 51);
+    color: #cecece;
+}
+
+.custom-theme .head,
+.custom-theme .map,
+.custom-theme .cros,
+.custom-theme .menu,
+.custom-theme .action {
+    box-sizing: border-box;
+    background-color: rgba(32, 30, 51, 0.767);
+    border: 5px groove rgb(32, 30, 51);
+    ;
+    height: 100%;
+    width: 100%;
+}
+
+// LAYOUT ----------------------------------------------------------------------------
