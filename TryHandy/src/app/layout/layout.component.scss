@@ -25,6 +25,11 @@
 .map {
     grid-area: map;
     overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 900;
 }
 
 .cros {
