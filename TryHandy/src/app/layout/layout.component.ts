@@ -24,4 +24,17 @@ export class LayoutComponent implements AfterViewChecked {
     }
   }
 
+  handleNord() {
+    console.log('NORD')
+  }
+  handleWest() {
+    console.log('WEST')
+  }
+  handleSud() {
+    console.log('SUD')
+  }
+  handleOst() {
+    console.log('OST')
+  }
+
 }
