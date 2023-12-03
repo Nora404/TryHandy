@@ -1,6 +1,5 @@
 
-
-<div class="container">
+<div id="container" class="containerRechts">
     <div class="head">Eine Überschrift</div>
     <div class="map">{{test}}</div>
     <div class="cros">
@@ -43,7 +42,10 @@
     <div class="menu">
 
         <button (click)="setTheme('light-theme')">Light Theme</button><br>
-        <button (click)="setTheme('dark-theme')">Dark Theme</button><br>
+        <button (click)="setTheme('dark-theme')">Dark Theme</button><br><br>
+
+        <button (click)="setMenu('containerLinks')">Menu Links</button><br>
+        <button (click)="setMenu('containerRechts')">Menu Rechts</button><br>
 
     </div>
     <div class="action">

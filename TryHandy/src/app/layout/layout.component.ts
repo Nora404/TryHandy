@@ -26,17 +26,35 @@ export class LayoutComponent implements AfterViewChecked {
   ];
 
   setTheme(theme: string) {
-    document.body.classList.remove('light-theme', 'dark-theme');
-    document.body.classList.add(theme);
+    if (document) {
+      document.body.classList.remove('light-theme', 'dark-theme');
+      document.body.classList.add(theme);
 
-    localStorage.setItem('theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+  }
+
+  setMenu(position: string) {
+    const container = document.getElementById('container');
+
+    if (container) {
+      container.classList.remove('containerRechts', 'containerLinks');
+      container.classList.add(position);
+
+      localStorage.setItem('menu', position);
+    }
   }
 
   ngAfterViewChecked(): void {
     const theme = localStorage.getItem('theme') || 'light-theme';
+    const menu = localStorage.getItem('menu') || 'containerLinks';
+    const container = document.getElementById('container');
 
     if (document) {
-      document.body.classList.add(theme);
+      this.setTheme(theme);
+    }
+    if (container) {
+      this.setMenu(menu);
     }
   }
 
