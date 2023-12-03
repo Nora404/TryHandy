@@ -49,7 +49,7 @@
     <div class="action">
 
         <div *ngFor="let action of test2" class="test">
-            <button>{{action}}</button><br>
+            <button (click)="handleAction(action)">{{action}}</button><br>
             Hier kommt eine Beschreibung hin, die soll vollständig zu sehen sein
         </div>
 
