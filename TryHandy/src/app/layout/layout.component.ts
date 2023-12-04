@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewChecked, Component, OnInit } from '@angular/core';
+import { MenuComponent } from '../menu/menu/menu.component';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, MenuComponent],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss'
 })
