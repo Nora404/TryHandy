@@ -61,11 +61,24 @@
 }
 
 .menu button {
-    width: 92%;
+    width: 94%;
 }
 
 .action {
     grid-area: action;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.action button {
+    width: 94%;
+}
+
+.actionHeader {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 1%;
+}
+
+.actionImg {
+    // display: inline-block;
 }
