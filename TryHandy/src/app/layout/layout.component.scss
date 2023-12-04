@@ -60,10 +60,6 @@
     overflow-x: hidden;
 }
 
-// .menu button {
-//     width: 94%;
-// }
-
 .action {
     grid-area: action;
     overflow-y: scroll;
@@ -77,8 +73,4 @@
 .actionHeader {
     background-color: rgba(0, 0, 0, 0.25);
     padding: 1%;
-}
-
-.actionImg {
-    // display: inline-block;
 }

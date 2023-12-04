@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import './css/light-theme.scss';
+@import './css/dark-theme.scss';
+
 button {
     box-sizing: border-box;
     margin: 3%;
@@ -11,107 +14,6 @@ button {
     font-weight: 700;
     box-shadow: 0px 2px 2px 2px #0000006c;
 }
-
-// LIGHT THEME ----------------------------------------------------------------------
-
-.light-theme {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(243, 246, 255);
-    color: black;
-}
-
-.light-theme button {
-    background: radial-gradient(#bcc4e2 1%, #888dd0 100%);
-    border-color: #485377;
-    color: #2c3341;
-}
-
-.light-theme .head,
-.light-theme .map,
-.light-theme .menu,
-.light-theme .action {
-    box-sizing: border-box;
-    background-color: #06106b25;
-    border: 3px double #0847bd96;
-    height: 100%;
-    width: 100%;
-}
-
-.light-theme .cros {
-    fill: #bcc4e2;
-    stroke: rgb(243, 246, 255);
-    stroke-width: 2px;
-}
-
-.light-theme .crosC {
-    fill: #6e73b8;
-    stroke: none;
-}
-
-.light-theme .crosR {
-    fill: #a9b4da;
-    stroke: none;
-}
-
-.light-theme .cros :active {
-    fill: #2c3341;
-}
-
-// DARK THEME ------------------------------------------------------------------------
-
-.dark-theme {
-    font-family: 'Courier New', Courier, monospace;
-    background: rgb(36, 36, 36) url('./assets/bg/bg3.svg') center center/cover repeat fixed;
-    color: rgb(175, 175, 175);
-}
-
-.dark-theme button {
-    background-color: #1d1d1d;
-    border-color: #000000;
-    color: #b19f9f;
-}
-
-.dark-theme .head,
-.dark-theme .map,
-.dark-theme .menu,
-.dark-theme .action {
-    box-sizing: border-box;
-    background-color: #525252c2;
-    border: 3px solid rgb(63, 34, 34);
-    height: 100%;
-    width: 100%;
-}
-
-.dark-theme .cros {
-    fill: rgb(85, 85, 85);
-    stroke: #1d1d1d;
-    stroke-width: 2px;
-}
-
-.dark-theme .crosC {
-    fill: #0c0c0c;
-    stroke: none;
-}
-
-.dark-theme .crosR {
-    fill: #4b4b4b;
-}
-
-.dark-theme .cros :active {
-    fill: #b19f9f;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // test

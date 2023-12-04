@@ -1,0 +1,50 @@
+// LAYOUTS
+
+.light-theme {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(243, 246, 255);
+    color: black;
+}
+
+.light-theme .head,
+.light-theme .map,
+.light-theme .menu,
+.light-theme .action {
+    box-sizing: border-box;
+    background-color: #06106b25;
+    border: 3px double #0847bd96;
+    height: 100%;
+    width: 100%;
+}
+
+
+// CROSS
+
+.light-theme .cros {
+    fill: #bcc4e2;
+    stroke: rgb(243, 246, 255);
+    stroke-width: 2px;
+}
+
+.light-theme .crosC {
+    fill: #6e73b8;
+    stroke: none;
+}
+
+.light-theme .crosR {
+    fill: #a9b4da;
+    stroke: none;
+}
+
+.light-theme .cros :active {
+    fill: #2c3341;
+}
+
+
+// ELEMENTS
+
+.light-theme button {
+    background: radial-gradient(#bcc4e2 1%, #888dd0 100%);
+    border-color: #485377;
+    color: #2c3341;
+}

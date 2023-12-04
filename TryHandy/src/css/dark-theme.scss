@@ -1,0 +1,63 @@
+// LAYOUT
+
+$text: #afafaf;
+$textButton: #b19f9f;
+$textMark: #bd9b3f;
+
+$background: #525252c2;
+
+$primer: #1d1d1d;
+$secund: #4b4b4b;
+$spezial: #462525;
+$dunkle: #0c0c0c;
+
+.dark-theme {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(36, 36, 36) url('../assets/bg/bg3.svg') center center/cover repeat fixed;
+    color: $text;
+}
+
+.dark-theme .head,
+.dark-theme .map,
+.dark-theme .menu,
+.dark-theme .action {
+    box-sizing: border-box;
+    background-color: $background;
+    border: 3px solid $spezial;
+    height: 100%;
+    width: 100%;
+}
+
+// CROSS
+
+.dark-theme .cros {
+    fill: $secund;
+    stroke: $dunkle;
+    stroke-width: 2px;
+}
+
+.dark-theme .crosC {
+    fill: $dunkle;
+    stroke: none;
+}
+
+.dark-theme .crosR {
+    fill: $secund;
+}
+
+.dark-theme .cros :active {
+    fill: $textButton;
+}
+
+
+// ELEMENTS
+
+.dark-theme button {
+    background-color: $primer;
+    border-color: $dunkle;
+    color: $textButton;
+}
+
+.dark-theme .highlight:active {
+    background-color: $secund;
+}
