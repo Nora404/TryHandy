@@ -12,7 +12,8 @@ $spezial: #462525;
 $dunkle: #0c0c0c;
 
 .dark-theme {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
     background: rgb(36, 36, 36) url('../assets/bg/bg3.svg') center center/cover repeat fixed;
     color: $text;
 }

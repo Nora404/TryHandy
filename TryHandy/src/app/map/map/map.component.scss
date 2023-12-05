@@ -1,0 +1,13 @@
+.map-content {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 1fr;
+    /* sorgt dafür, dass die Höhe der Reihen der Breite der Spalten entspricht */
+}
+
+.square {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 2px dotted rgb(44, 39, 29);
+    /* Füge hier weitere Stile hinzu, z.B. Hintergrundfarbe, Ränder, etc. */
+}

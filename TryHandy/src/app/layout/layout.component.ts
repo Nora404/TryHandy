@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { MenuComponent } from '../menu/menu/menu.component';
+import { MapComponent } from '../map/map/map.component';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [CommonModule, MenuComponent],
+  imports: [CommonModule, MenuComponent, MapComponent],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss'
 })
@@ -18,12 +19,6 @@ export class LayoutComponent implements AfterViewChecked {
     'Aktion 3',
     'Aktion 4',
     'Aktion 5',
-    'Aktion 6',
-    'Aktion 7',
-    'Aktion 8',
-    'Aktion 9',
-    'Aktion 10',
-    'Aktion 11',
   ];
 
   setTheme(theme: string) {

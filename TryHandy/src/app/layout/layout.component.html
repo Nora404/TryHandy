@@ -1,7 +1,7 @@
 
 <div id="container" class="containerRechts">
-    <div class="head">Eine Überschrift</div>
-    <div class="map">{{test}}</div>
+    <div class="head">Eine Überschrift: {{test}}</div>
+    <div class="map"><app-map></app-map></div>
     <div class="cros">
 
         <svg width="100%" height="100%" viewBox="0 0 107 107" version="1.1">
@@ -54,7 +54,7 @@
 
         <div *ngFor="let action of test2" class="test">
             <div class="actionHeader"><strong>{{action}}</strong></div>
-            <div class="actionImg"><img src="../../assets/rat.svg" width="30%" height="30%"></div>
+            <img class="actionImg" src="../../assets/rat.svg" width="30%" height="30%">
             <div class="actionText">Hier kommt eine Beschreibung hin, die soll vollständig zu sehen sein</div>
 
             <button (click)="handleAction(action)">Interaktion 1</button><br>

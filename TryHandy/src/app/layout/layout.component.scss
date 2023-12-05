@@ -42,10 +42,10 @@
     grid-area: map;
     overflow: hidden;
     display: grid;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
-    font-weight: 900;
+    // justify-content: center;
+    // align-items: center;
+    // font-size: xx-large;
+    // font-weight: 900;
 }
 
 .cros {
@@ -72,5 +72,19 @@
 
 .actionHeader {
     background-color: rgba(0, 0, 0, 0.25);
-    padding: 1%;
+    padding: 3%;
+}
+
+.actionText {
+    padding: 3%;
+}
+
+.actionImg {
+    padding: 3%;
+    float: left;
+}
+
+app-map {
+    width: 100%;
+    height: 100%;
 }
