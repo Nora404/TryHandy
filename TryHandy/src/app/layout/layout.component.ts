@@ -21,15 +21,6 @@ export class LayoutComponent implements AfterViewChecked {
     'Aktion 5',
   ];
 
-  setTheme(theme: string) {
-    if (document) {
-      document.body.classList.remove('light-theme', 'dark-theme');
-      document.body.classList.add(theme);
-
-      localStorage.setItem('theme', theme);
-    }
-  }
-
   setMenu(position: string) {
     const container = document.getElementById('container');
 
@@ -42,16 +33,12 @@ export class LayoutComponent implements AfterViewChecked {
   }
 
   ngAfterViewChecked(): void {
-    const theme = localStorage.getItem('theme') || 'light-theme';
-    const menu = localStorage.getItem('menu') || 'containerLinks';
-    const container = document.getElementById('container');
+    // const menu = localStorage.getItem('menu') || 'containerLinks';
+    // const container = document.getElementById('container');
 
-    if (document) {
-      this.setTheme(theme);
-    }
-    if (container) {
-      this.setMenu(menu);
-    }
+    // if (container) {
+    //   this.setMenu(menu);
+    // }
   }
 
   handleNord() {

@@ -11,3 +11,12 @@
     border: 2px dotted rgb(44, 39, 29);
     /* Füge hier weitere Stile hinzu, z.B. Hintergrundfarbe, Ränder, etc. */
 }
+
+.player {
+    display: grid;
+    position: absolute;
+    top: 19%;
+    left: 43%;
+    width: 14%;
+    z-index: 99;
+}
