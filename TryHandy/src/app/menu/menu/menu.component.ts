@@ -29,4 +29,8 @@ export class MenuComponent {
     this.stats = menu === 'stats';
     this.world = menu === 'world';
   }
+
+  enableFullscreen() {
+    document.documentElement.requestFullscreen();
+  }
 }

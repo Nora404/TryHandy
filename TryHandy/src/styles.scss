@@ -53,9 +53,21 @@ button {
 
 // CROSS
 
-// #segment-sued {
-//     fill: $bright-color;
-// }
+#segment-sued {
+    fill: darken($dark-color, 4%)
+}
+
+#segment-sued:active {
+    fill: $text-color;
+}
+
+#segment-nord {
+    fill: lighten($dark-color, 4%)
+}
+
+#segment-nord:active {
+    fill: $text-color;
+}
 
 .cros {
     box-sizing: border-box;

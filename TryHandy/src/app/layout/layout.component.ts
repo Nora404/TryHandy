@@ -58,8 +58,8 @@ export class LayoutComponent implements AfterViewChecked {
     console.log('OST')
   }
 
-  handleAction(action: string) {
-    this.test = action.toUpperCase();
+  handleAction(action: string, btn: string) {
+    this.test = action.toUpperCase() + btn;
   }
 
 }
